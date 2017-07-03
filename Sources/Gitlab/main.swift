@@ -1,4 +1,5 @@
 import GitlabCore
+import Foundation
 
-let gitlab = Gitlab()
-gitlab.run()
+Gitlab.run()
+RunLoop.main.run()

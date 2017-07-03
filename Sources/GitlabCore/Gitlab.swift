@@ -1,5 +1,8 @@
 
 import Moya
+import Alamofire
+import Dispatch
+import Foundation
 
 public class Gitlab {
     
@@ -7,7 +10,7 @@ public class Gitlab {
         
     }
     
-    public func run() {
-        print("Hello world")
+    public class func run() {
+        print(CommandLine.arguments)
     }
 }
